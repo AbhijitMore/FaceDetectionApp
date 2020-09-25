@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Real Time Face Detection</title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='styles/mainpage.css')}}">
+</head>
+<body>
+    <div class="Header">
+      <h1> Image Processing </h1>
+    </div>
+    <div class="Focus">
+      <div class="Focus-item">
+        <img src="{{url_for('video_feed')}}"></img>
+      </div>
+      <div class="Focus-item">
+        <div class="box">
+        <h4>Real Time Face Detection</h4>
+        <br>
+        <h5> Face Detection is a Computer-Vision Technology that helps to detect human faces. This technique is specific use case of "object detection" technology. </h5>
+        <br><br>
+        <h5> Created By</h5>
+        <h5> More Abhijit Popat</h5>
+        </div>
+      </div>
+    </div>
+    <div class="Footer">
+      <h5> <span>Copyright 2020 &#169;</span>
+      </h5>
+    </div>
+</body>
+</html>
