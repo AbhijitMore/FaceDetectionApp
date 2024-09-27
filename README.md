@@ -1,16 +1,16 @@
-# Face Detection Web App
+# Face Detection Web App 🕵️‍♂️📹
 
 ## Overview
 
 This Flask-based web application performs real-time face detection using OpenCV. The app captures video from your webcam, processes each frame to detect faces, and streams the video feed to the web interface. The face detection utilizes a Haar Cascade classifier for identifying faces within the video stream.
 
-## Features
+## Features ✨
 
 - **Real-time Face Detection:** Detect faces in real-time using Haar Cascades.
 - **Live Video Streaming:** Stream the video feed to the web browser with Flask.
 - **Web Interface:** Simple and intuitive web interface to display the video feed.
 
-## Directory Structure
+## Directory Structure 🗂️
 
 ```plaintext
 .
@@ -25,4 +25,7 @@ This Flask-based web application performs real-time face detection using OpenCV.
 └── haarcascade_frontalface_default.xml
 ```
 
+## Contributing 🤝
+
+Feel free to submit issues or pull requests. Your contributions are welcome!
 
